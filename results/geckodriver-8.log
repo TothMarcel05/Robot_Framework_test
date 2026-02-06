@@ -1,0 +1,13 @@
+1770363803492	geckodriver	INFO	Listening on 127.0.0.1:59259
+1770363806600	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59260" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TOTHMA~1\\AppData\\Local\\Temp\\rust_mozprofileBZShmi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1770363806843	Marionette	INFO	Marionette enabled
+1770363806912	Marionette	INFO	Listening on port 59267
+WebDriver BiDi listening on ws://127.0.0.1:59260
+Read port: 59267
+1770363807051	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1770363829762	Marionette	INFO	Stopped listening on port 59267
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
