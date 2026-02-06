@@ -15,7 +15,7 @@ login with standard_user wrong password
     Input Text    //*[@id="user-name"]    standard_user
     Input Password    //*[@id="password"]    secret_saucee
     Click Button    //*[@id="login-button"]
-    Page Should Contain Element    //*[@id="shopping_cart_container"]/a
+    Page Should Contain Element    id="login_container"
     Close Browser
 
 login with wrong username and valid password
@@ -23,19 +23,19 @@ login with wrong username and valid password
     Input Text    //*[@id="user-name"]    standard_userr
     Input Password    //*[@id="password"]    secret_sauce
     Click Button    //*[@id="login-button"]
-    Page Should Contain Element    //*[@id="shopping_cart_container"]/a
+    Page Should Contain Element    //*[@id="login-box"]/a
     Close Browser
 
 login without username
     Open Browser    https://www.saucedemo.com/    firefox 
     Input Password    //*[@id="password"]    secret_sauce
     Click Button    //*[@id="login-button"]
-    Page Should Contain Element    //*[@id="shopping_cart_container"]/a
+    Page Should Contain Element    //*[@id="error-button"]
     Close Browser
 
 Login without password
     Open Browser    https://www.saucedemo.com/    firefox
     Input Text    //*[@id="user-name"]    standard_user
     Click Button    //*[@id="login-button"]
-    Page Should Contain Element    //*[@id="shopping_cart_container"]/a
+    Page Should Contain Element    //*[@id="error-message-container error"]/a
     Close Browser
