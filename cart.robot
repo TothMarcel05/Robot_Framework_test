@@ -34,5 +34,6 @@ Remove products from the shopping cart
 Check the contents of the shopping cart
     Login to SauceDemo
     Sleep   3s
-    ${item_count}=  Get Element Count #cart_con
+    ${item_count}=  Get Element Count   //*[@class="cart-item"]
+    Should Be Equal As Numbers  ${item_count}    0   
     Close Browser  
