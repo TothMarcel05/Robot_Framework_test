@@ -1,232 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.1 (Python 3.13.5 on win32)" generated="2026-02-06T09:27:28.115217" rpa="false" schemaversion="5">
+<robot generator="Robot 7.4.1 (Python 3.13.5 on win32)" generated="2026-02-20T08:33:01.983638" rpa="false" schemaversion="5">
 <suite id="s1" name="Robot Framework test" source="C:\Users\TothMarcel\Documents\GitHub\Robot_Framework_test">
-<suite id="s1-s1" name="SauceDemoLogin" source="C:\Users\TothMarcel\Documents\GitHub\Robot_Framework_test\SauceDemoLogin.robot">
-<test id="s1-s1-t1" name="Login with standard user" line="5">
+<suite id="s1-s1" name="Cart" source="C:\Users\TothMarcel\Documents\GitHub\Robot_Framework_test\cart.robot">
+<test id="s1-s1-t1" name="Shopping cart functionality" line="5">
 <kw name="Open Browser" owner="Selenium2Library">
-<msg time="2026-02-06T09:27:28.276994" level="INFO">Opening browser 'firefox' to base url 'https://www.saucedemo.com/'.</msg>
+<msg time="2026-02-20T08:33:02.156866" level="INFO">Opening browser 'firefox' to base url 'https://www.saucedemo.com/'.</msg>
 <arg>https://www.saucedemo.com/</arg>
 <arg>firefox</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-02-06T09:27:28.276723" elapsed="5.736494"/>
+<status status="PASS" start="2026-02-20T08:33:02.156535" elapsed="5.525176"/>
 </kw>
 <kw name="Input Text" owner="Selenium2Library">
-<msg time="2026-02-06T09:27:34.013965" level="INFO">Typing text 'standard_user' into text field '//*[@id="user-name"]'.</msg>
+<msg time="2026-02-20T08:33:07.682637" level="INFO">Typing text 'standard_user' into text field '//*[@id="user-name"]'.</msg>
 <arg>//*[@id="user-name"]</arg>
 <arg>standard_user</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-06T09:27:34.013570" elapsed="0.047700"/>
+<status status="PASS" start="2026-02-20T08:33:07.682184" elapsed="0.086162"/>
 </kw>
 <kw name="Input Password" owner="Selenium2Library">
-<msg time="2026-02-06T09:27:34.062113" level="INFO">Typing password into text field '//*[@id="password"]'.</msg>
-<msg time="2026-02-06T09:27:34.070358" level="INFO">Temporally setting log level to: NONE</msg>
+<msg time="2026-02-20T08:33:07.768929" level="INFO">Typing password into text field '//*[@id="password"]'.</msg>
+<msg time="2026-02-20T08:33:07.773080" level="INFO">Temporally setting log level to: NONE</msg>
 <arg>//*[@id="password"]</arg>
 <arg>secret_sauce</arg>
 <doc>Types the given password into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-06T09:27:34.061685" elapsed="0.019915"/>
+<status status="PASS" start="2026-02-20T08:33:07.768651" elapsed="0.016376"/>
 </kw>
 <kw name="Click Button" owner="Selenium2Library">
-<msg time="2026-02-06T09:27:34.082226" level="INFO">Clicking button '//*[@id="login-button"]'.</msg>
+<msg time="2026-02-20T08:33:07.785686" level="INFO">Clicking button '//*[@id="login-button"]'.</msg>
 <arg>//*[@id="login-button"]</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-06T09:27:34.081889" elapsed="0.092910"/>
-</kw>
-<kw name="Page Should Contain Element" owner="Selenium2Library">
-<msg time="2026-02-06T09:27:34.177380" level="INFO">Current page contains element '//*[@id="shopping_cart_container"]/a'.</msg>
-<arg>//*[@id="shopping_cart_container"]/a</arg>
-<doc>Verifies that element ``locator`` is found on the current page.</doc>
-<status status="PASS" start="2026-02-06T09:27:34.175096" elapsed="0.002461"/>
+<status status="PASS" start="2026-02-20T08:33:07.785342" elapsed="0.086031"/>
 </kw>
 <kw name="Close Browser" owner="Selenium2Library">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2026-02-06T09:27:34.177838" elapsed="2.634694"/>
+<status status="PASS" start="2026-02-20T08:33:07.871637" elapsed="2.655219"/>
 </kw>
-<status status="PASS" start="2026-02-06T09:27:28.274687" elapsed="8.538138"/>
+<status status="PASS" start="2026-02-20T08:33:02.153779" elapsed="8.373353"/>
 </test>
-<test id="s1-s1-t2" name="login with standard_user wrong password" line="13">
-<kw name="Open Browser" owner="Selenium2Library">
-<msg time="2026-02-06T09:27:36.817761" level="INFO">Opening browser 'firefox' to base url 'https://www.saucedemo.com/'.</msg>
-<arg>https://www.saucedemo.com/</arg>
-<arg>firefox</arg>
-<doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-02-06T09:27:36.817527" elapsed="5.783279"/>
-</kw>
-<kw name="Input Text" owner="Selenium2Library">
-<msg time="2026-02-06T09:27:42.602408" level="INFO">Typing text 'standard_user' into text field '//*[@id="user-name"]'.</msg>
-<arg>//*[@id="user-name"]</arg>
-<arg>standard_user</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-06T09:27:42.601553" elapsed="0.053225"/>
-</kw>
-<kw name="Input Password" owner="Selenium2Library">
-<msg time="2026-02-06T09:27:42.655342" level="INFO">Typing password into text field '//*[@id="password"]'.</msg>
-<msg time="2026-02-06T09:27:42.669385" level="INFO">Temporally setting log level to: NONE</msg>
-<arg>//*[@id="password"]</arg>
-<arg>secret_saucee</arg>
-<doc>Types the given password into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-06T09:27:42.655062" elapsed="0.026473"/>
-</kw>
-<kw name="Click Button" owner="Selenium2Library">
-<msg time="2026-02-06T09:27:42.682113" level="INFO">Clicking button '//*[@id="login-button"]'.</msg>
-<arg>//*[@id="login-button"]</arg>
-<doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-06T09:27:42.681817" elapsed="0.081052"/>
-</kw>
-<kw name="Page Should Contain Element" owner="Selenium2Library">
-<msg time="2026-02-06T09:27:42.782394" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-31.png"&gt;&lt;img src="selenium-screenshot-31.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg time="2026-02-06T09:27:42.782706" level="FAIL">InvalidSelectorException: Message: Given css selector expression "."login_container"" is invalid: SyntaxError: Document.querySelectorAll: '."login_container"' is not a valid selector; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
-InvalidSelectorError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:455:5
-find_@chrome://remote/content/shared/DOM.sys.mjs:170:11
-</msg>
-<arg>class="login_container"</arg>
-<doc>Verifies that element ``locator`` is found on the current page.</doc>
-<status status="FAIL" start="2026-02-06T09:27:42.763301" elapsed="0.025151">InvalidSelectorException: Message: Given css selector expression "."login_container"" is invalid: SyntaxError: Document.querySelectorAll: '."login_container"' is not a valid selector; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
-InvalidSelectorError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:455:5
-find_@chrome://remote/content/shared/DOM.sys.mjs:170:11
-</status>
-</kw>
-<kw name="Close Browser" owner="Selenium2Library">
-<doc>Closes the current browser.</doc>
-<status status="NOT RUN" start="2026-02-06T09:27:42.788749" elapsed="0.000124"/>
-</kw>
-<status status="FAIL" start="2026-02-06T09:27:36.815363" elapsed="5.973735">InvalidSelectorException: Message: Given css selector expression "."login_container"" is invalid: SyntaxError: Document.querySelectorAll: '."login_container"' is not a valid selector; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
-Stacktrace:
-RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
-WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
-InvalidSelectorError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:455:5
-find_@chrome://remote/content/shared/DOM.sys.mjs:170:11
-</status>
-</test>
-<test id="s1-s1-t3" name="login with wrong username and valid password" line="21">
-<kw name="Open Browser" owner="Selenium2Library">
-<msg time="2026-02-06T09:27:42.795484" level="INFO">Opening browser 'firefox' to base url 'https://www.saucedemo.com/'.</msg>
-<arg>https://www.saucedemo.com/</arg>
-<arg>firefox</arg>
-<doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-02-06T09:27:42.795250" elapsed="5.853316"/>
-</kw>
-<kw name="Input Text" owner="Selenium2Library">
-<msg time="2026-02-06T09:27:48.649125" level="INFO">Typing text 'standard_userr' into text field '//*[@id="user-name"]'.</msg>
-<arg>//*[@id="user-name"]</arg>
-<arg>standard_userr</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-06T09:27:48.648852" elapsed="0.057964"/>
-</kw>
-<kw name="Input Password" owner="Selenium2Library">
-<msg time="2026-02-06T09:27:48.707362" level="INFO">Typing password into text field '//*[@id="password"]'.</msg>
-<msg time="2026-02-06T09:27:48.711300" level="INFO">Temporally setting log level to: NONE</msg>
-<arg>//*[@id="password"]</arg>
-<arg>secret_sauce</arg>
-<doc>Types the given password into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-06T09:27:48.707092" elapsed="0.026345"/>
-</kw>
-<kw name="Click Button" owner="Selenium2Library">
-<msg time="2026-02-06T09:27:48.734038" level="INFO">Clicking button '//*[@id="login-button"]'.</msg>
-<arg>//*[@id="login-button"]</arg>
-<doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-06T09:27:48.733724" elapsed="0.073124"/>
-</kw>
-<kw name="Page Should Contain Element" owner="Selenium2Library">
-<msg time="2026-02-06T09:27:48.831782" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-33.png"&gt;&lt;img src="selenium-screenshot-33.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg time="2026-02-06T09:27:48.832096" level="FAIL">Page should have contained element '//*[@id="login-box"]/a' but did not.</msg>
-<arg>//*[@id="login-box"]/a</arg>
-<doc>Verifies that element ``locator`` is found on the current page.</doc>
-<status status="FAIL" start="2026-02-06T09:27:48.807087" elapsed="0.028679">Page should have contained element '//*[@id="login-box"]/a' but did not.</status>
-</kw>
-<kw name="Close Browser" owner="Selenium2Library">
-<doc>Closes the current browser.</doc>
-<status status="NOT RUN" start="2026-02-06T09:27:48.836029" elapsed="0.000110"/>
-</kw>
-<status status="FAIL" start="2026-02-06T09:27:42.793156" elapsed="6.043163">Page should have contained element '//*[@id="login-box"]/a' but did not.</status>
-</test>
-<test id="s1-s1-t4" name="login without username" line="29">
-<kw name="Open Browser" owner="Selenium2Library">
-<msg time="2026-02-06T09:27:48.842690" level="INFO">Opening browser 'firefox' to base url 'https://www.saucedemo.com/'.</msg>
-<arg>https://www.saucedemo.com/</arg>
-<arg>firefox</arg>
-<doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-02-06T09:27:48.842364" elapsed="5.797317"/>
-</kw>
-<kw name="Input Password" owner="Selenium2Library">
-<msg time="2026-02-06T09:27:54.640507" level="INFO">Typing password into text field '//*[@id="password"]'.</msg>
-<msg time="2026-02-06T09:27:54.660937" level="INFO">Temporally setting log level to: NONE</msg>
-<arg>//*[@id="password"]</arg>
-<arg>secret_sauce</arg>
-<doc>Types the given password into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-06T09:27:54.640129" elapsed="0.050288"/>
-</kw>
-<kw name="Click Button" owner="Selenium2Library">
-<msg time="2026-02-06T09:27:54.691037" level="INFO">Clicking button '//*[@id="login-button"]'.</msg>
-<arg>//*[@id="login-button"]</arg>
-<doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-06T09:27:54.690725" elapsed="0.081952"/>
-</kw>
-<kw name="Page Should Contain Element" owner="Selenium2Library">
-<msg time="2026-02-06T09:27:54.793352" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-35.png"&gt;&lt;img src="selenium-screenshot-35.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg time="2026-02-06T09:27:54.793628" level="FAIL">Page should have contained element '//*[@id="error-button"]' but did not.</msg>
-<arg>//*[@id="error-button"]</arg>
-<doc>Verifies that element ``locator`` is found on the current page.</doc>
-<status status="FAIL" start="2026-02-06T09:27:54.773097" elapsed="0.024174">Page should have contained element '//*[@id="error-button"]' but did not.</status>
-</kw>
-<kw name="Close Browser" owner="Selenium2Library">
-<doc>Closes the current browser.</doc>
-<status status="NOT RUN" start="2026-02-06T09:27:54.797541" elapsed="0.000110"/>
-</kw>
-<status status="FAIL" start="2026-02-06T09:27:48.840072" elapsed="5.957776">Page should have contained element '//*[@id="error-button"]' but did not.</status>
-</test>
-<test id="s1-s1-t5" name="Login without password" line="36">
-<kw name="Open Browser" owner="Selenium2Library">
-<msg time="2026-02-06T09:27:54.803816" level="INFO">Opening browser 'firefox' to base url 'https://www.saucedemo.com/'.</msg>
-<arg>https://www.saucedemo.com/</arg>
-<arg>firefox</arg>
-<doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-02-06T09:27:54.803577" elapsed="5.820027"/>
-</kw>
-<kw name="Input Text" owner="Selenium2Library">
-<msg time="2026-02-06T09:28:00.624179" level="INFO">Typing text 'standard_user' into text field '//*[@id="user-name"]'.</msg>
-<arg>//*[@id="user-name"]</arg>
-<arg>standard_user</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-06T09:28:00.623900" elapsed="0.041491"/>
-</kw>
-<kw name="Click Button" owner="Selenium2Library">
-<msg time="2026-02-06T09:28:00.665885" level="INFO">Clicking button '//*[@id="login-button"]'.</msg>
-<arg>//*[@id="login-button"]</arg>
-<doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-02-06T09:28:00.665639" elapsed="0.089423"/>
-</kw>
-<kw name="Page Should Contain Element" owner="Selenium2Library">
-<msg time="2026-02-06T09:28:00.776620" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-37.png"&gt;&lt;img src="selenium-screenshot-37.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg time="2026-02-06T09:28:00.776945" level="FAIL">Page should have contained element '//*[@id="error-message-container error"]/a' but did not.</msg>
-<arg>//*[@id="error-message-container error"]/a</arg>
-<doc>Verifies that element ``locator`` is found on the current page.</doc>
-<status status="FAIL" start="2026-02-06T09:28:00.755336" elapsed="0.025056">Page should have contained element '//*[@id="error-message-container error"]/a' but did not.</status>
-</kw>
-<kw name="Close Browser" owner="Selenium2Library">
-<doc>Closes the current browser.</doc>
-<status status="NOT RUN" start="2026-02-06T09:28:00.780651" elapsed="0.000113"/>
-</kw>
-<status status="FAIL" start="2026-02-06T09:27:54.801524" elapsed="5.979420">Page should have contained element '//*[@id="error-message-container error"]/a' but did not.</status>
-</test>
-<status status="FAIL" start="2026-02-06T09:27:28.141053" elapsed="32.643358"/>
+<status status="PASS" start="2026-02-20T08:33:02.015951" elapsed="8.514745"/>
 </suite>
-<status status="FAIL" start="2026-02-06T09:27:28.118774" elapsed="32.668666"/>
+<status status="PASS" start="2026-02-20T08:33:01.987188" elapsed="8.545686"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="4" skip="0">All Tests</stat>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Robot Framework test" id="s1" pass="1" fail="4" skip="0">Robot Framework test</stat>
-<stat name="SauceDemoLogin" id="s1-s1" pass="1" fail="4" skip="0">Robot Framework test.SauceDemoLogin</stat>
+<stat name="Robot Framework test" id="s1" pass="1" fail="0" skip="0">Robot Framework test</stat>
+<stat name="Cart" id="s1-s1" pass="1" fail="0" skip="0">Robot Framework test.Cart</stat>
 </suite>
 </statistics>
 <errors>
