@@ -84,6 +84,7 @@ Vissza navigáció - Back to products gomb
     ${long_name}=    Evaluate    "A" * 10000   
     Input Text    //*[@id="first-name"]    ${long_name}      
     Input Text    //*[@id="last-name"]    ${long_name}
+    Input Text    //*[@id="postal-code"]    6100
     Click Element    //*[@class="submit-button btn btn_primary cart_button btn_action"] 
     Sleep    5s
     Close Browser
