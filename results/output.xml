@@ -1,88 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.1 (Python 3.13.5 on win32)" generated="2026-03-06T08:00:49.809429" rpa="false" schemaversion="5">
+<robot generator="Robot 7.4.1 (Python 3.13.5 on win32)" generated="2026-03-06T08:32:50.642344" rpa="false" schemaversion="5">
 <suite id="s1" name="Robot Framework test" source="C:\Users\TothMarcel\Documents\GitHub\Robot_Framework_test">
 <suite id="s1-s1" name="Feladat" source="C:\Users\TothMarcel\Documents\GitHub\Robot_Framework_test\Feladat.robot">
-<test id="s1-s1-t1" name="Termék információk ellenőrzése - név" line="22">
+<test id="s1-s1-t1" name="Termék információk ellenőrzése - kép" line="43">
 <kw name="Login to SauceDemo">
 <kw name="Open Browser" owner="Selenium2Library">
-<msg time="2026-03-06T08:00:49.976269" level="INFO">Opening browser 'firefox' to base url 'https://www.saucedemo.com/'.</msg>
+<msg time="2026-03-06T08:32:50.815278" level="INFO">Opening browser 'firefox' to base url 'https://www.saucedemo.com/'.</msg>
 <arg>https://www.saucedemo.com/</arg>
 <arg>firefox</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-03-06T08:00:49.976026" elapsed="5.548475"/>
+<status status="PASS" start="2026-03-06T08:32:50.815057" elapsed="5.575386"/>
 </kw>
 <kw name="Input Text" owner="Selenium2Library">
-<msg time="2026-03-06T08:00:55.525075" level="INFO">Typing text 'standard_user' into text field '//*[@id="user-name"]'.</msg>
+<msg time="2026-03-06T08:32:56.391044" level="INFO">Typing text 'standard_user' into text field '//*[@id="user-name"]'.</msg>
 <arg>//*[@id="user-name"]</arg>
 <arg>standard_user</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-06T08:00:55.524714" elapsed="0.056548"/>
+<status status="PASS" start="2026-03-06T08:32:56.390672" elapsed="0.055288"/>
 </kw>
 <kw name="Input Password" owner="Selenium2Library">
-<msg time="2026-03-06T08:00:55.581706" level="INFO">Typing password into text field '//*[@id="password"]'.</msg>
-<msg time="2026-03-06T08:00:55.589261" level="INFO">Temporally setting log level to: NONE</msg>
+<msg time="2026-03-06T08:32:56.446539" level="INFO">Typing password into text field '//*[@id="password"]'.</msg>
+<msg time="2026-03-06T08:32:56.468343" level="INFO">Temporally setting log level to: NONE</msg>
 <arg>//*[@id="password"]</arg>
 <arg>secret_sauce</arg>
 <doc>Types the given password into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-06T08:00:55.581446" elapsed="0.055487"/>
+<status status="PASS" start="2026-03-06T08:32:56.446212" elapsed="0.039549"/>
 </kw>
 <kw name="Click Button" owner="Selenium2Library">
-<msg time="2026-03-06T08:00:55.637340" level="INFO">Clicking button '//*[@id="login-button"]'.</msg>
+<msg time="2026-03-06T08:32:56.486350" level="INFO">Clicking button '//*[@id="login-button"]'.</msg>
 <arg>//*[@id="login-button"]</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-06T08:00:55.637101" elapsed="0.081044"/>
+<status status="PASS" start="2026-03-06T08:32:56.486003" elapsed="0.177793"/>
 </kw>
-<status status="PASS" start="2026-03-06T08:00:49.975475" elapsed="5.742836"/>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2026-03-06T08:00:56.720029" level="INFO">Slept 1 second.</msg>
-<arg>1s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-03-06T08:00:55.718587" elapsed="1.002814"/>
-</kw>
-<kw name="Page Should Contain" owner="Selenium2Library">
-<msg time="2026-03-06T08:00:56.738219" level="INFO">Current page contains text 'Sauce Labs Backpack'.</msg>
-<arg>Sauce Labs Backpack</arg>
-<doc>Verifies that current page contains ``text``.</doc>
-<status status="PASS" start="2026-03-06T08:00:56.723255" elapsed="0.015189"/>
+<status status="PASS" start="2026-03-06T08:32:50.814467" elapsed="5.849539"/>
 </kw>
 <kw name="Click Element" owner="Selenium2Library">
-<msg time="2026-03-06T08:00:56.739267" level="INFO">Clicking element '//*[@class="inventory_item_name "]'.</msg>
+<msg time="2026-03-06T08:32:56.664659" level="INFO">Clicking element '//*[@class="inventory_item_name "]'.</msg>
 <arg>//*[@class="inventory_item_name "]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-06T08:00:56.738853" elapsed="0.066334"/>
+<status status="PASS" start="2026-03-06T08:32:56.664330" elapsed="0.064285"/>
 </kw>
-<kw name="Page Should Contain" owner="Selenium2Library">
-<msg time="2026-03-06T08:00:56.838103" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-54.png"&gt;&lt;img src="selenium-screenshot-54.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg time="2026-03-06T08:00:56.838360" level="FAIL">Page should have contained text 'Sauce Labs Backpaack' but did not.</msg>
-<arg>Sauce Labs Backpaack</arg>
-<doc>Verifies that current page contains ``text``.</doc>
-<status status="FAIL" start="2026-03-06T08:00:56.805654" elapsed="0.037157">Page should have contained text 'Sauce Labs Backpaack' but did not.</status>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<arg>1s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="NOT RUN" start="2026-03-06T08:00:56.843082" elapsed="0.000111"/>
+<kw name="Page Should Contain Image" owner="Selenium2Library">
+<msg time="2026-03-06T08:32:56.732524" level="INFO">Current page contains image '//*[@class="inventory_details_img"]'.</msg>
+<arg>//*[@class="inventory_details_img"]</arg>
+<doc>Verifies image identified by ``locator`` is found from current page.</doc>
+<status status="PASS" start="2026-03-06T08:32:56.728908" elapsed="0.003903"/>
 </kw>
 <kw name="Close Browser" owner="Selenium2Library">
 <doc>Closes the current browser.</doc>
-<status status="NOT RUN" start="2026-03-06T08:00:56.843347" elapsed="0.000078"/>
+<status status="PASS" start="2026-03-06T08:32:56.733106" elapsed="2.678686"/>
 </kw>
-<status status="FAIL" start="2026-03-06T08:00:49.973559" elapsed="6.870040">Page should have contained text 'Sauce Labs Backpaack' but did not.</status>
+<status status="PASS" start="2026-03-06T08:32:50.812343" elapsed="8.599711"/>
 </test>
-<status status="FAIL" start="2026-03-06T08:00:49.835539" elapsed="7.012065"/>
+<status status="PASS" start="2026-03-06T08:32:50.673831" elapsed="8.741736"/>
 </suite>
-<status status="FAIL" start="2026-03-06T08:00:49.813218" elapsed="7.036385"/>
+<status status="PASS" start="2026-03-06T08:32:50.646335" elapsed="8.771171"/>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="1" skip="0">All Tests</stat>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Robot Framework test" id="s1" pass="0" fail="1" skip="0">Robot Framework test</stat>
-<stat name="Feladat" id="s1-s1" pass="0" fail="1" skip="0">Robot Framework test.Feladat</stat>
+<stat name="Robot Framework test" id="s1" pass="1" fail="0" skip="0">Robot Framework test</stat>
+<stat name="Feladat" id="s1-s1" pass="1" fail="0" skip="0">Robot Framework test.Feladat</stat>
 </suite>
 </statistics>
 <errors>
