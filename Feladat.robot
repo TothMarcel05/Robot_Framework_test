@@ -17,7 +17,7 @@ Termék oldal megnyitása - név alapján
 Termék oldal megnyitása - kép alapján
     Login to SauceDemo
     Click Element    //*[@class="inventory_item_img"]  
-    Close Browser s
+    Close Browser
     
 Termék információk ellenőrzése - név
     Login to SauceDemo
@@ -28,14 +28,21 @@ Termék információk ellenőrzése - név
 
 Termék információk ellenőrzése - ár
     Login to SauceDemo
+    Page Should Contain   Sauce Labs Backpack
+    Click Element    //*[@class="inventory_item_name "]  
+    Page Should Contain    Sauce Labs Backpack
+    Close Browser 
+
+Termék információk ellenőrzése - leírás
+    Login to SauceDemo
     Sleep   1s
     Page Should Contain   Sauce Labs Backpack
     Click Element    //*[@class="inventory_item_name "]  
     Page Should Contain    Sauce Labs Backpack
     Sleep   1s
-    Close Browser 
+    Close Browser
 
 # 3. Termékrészletek:
-# Termék információk ellenőrzése - leírás        (egyáltalán megjelenik-e?)
+#         (egyáltalán megjelenik-e?)
 # Termék információk ellenőrzése - kép    (egyáltalán megjelenik-e?)
 # Vissza navigáció - Back to products gomb
