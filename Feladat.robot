@@ -86,7 +86,6 @@ Vissza navigáció - Back to products gomb
     Input Text    //*[@id="last-name"]    ${long_name}
     Input Text    //*[@id="postal-code"]    6100
     Click Element    //*[@class="submit-button btn btn_primary cart_button btn_action"] 
-    Sleep    5s
     Close Browser
 
 Érvénytelen adatok kezelése - speciális karakterek
