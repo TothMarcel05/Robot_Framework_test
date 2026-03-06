@@ -44,21 +44,90 @@ Termék információk ellenőrzése - kép
     Login to SauceDemo    
     Click Element    //*[@class="inventory_item_name "] 
     Page Should Contain Image    //*[@class="inventory_details_img"]   
-    Close Browser    
+    Close Browser     
 
 Vissza navigáció - Back to products gomb
     Login to SauceDemo
     Click Element    //*[@class="inventory_item_name "] 
     Click Button    //*[@id="back-to-products"]    
-    Close Browser   
+    Close Browser  
 
 #Checkout validáció:
+Üres mezők ellenőrzése - név
+    Login to SauceDemo    
+    Click Element    //*[@class="shopping_cart_container"] 
+    Click Element    //*[@class="btn btn_action btn_medium checkout_button "] 
+    Input Text    //*[@id="postal-code"]    6100      
+    Click Element    //*[@class="submit-button btn btn_primary cart_button btn_action"] 
+    Close Browser  
 
-# Üres mezők ellenőrzése - név
-# Üres mezők ellenőrzése - cím
-# Üres mezők ellenőrzése - minden mező üres
-# Érvénytelen adatok kezelése - túl hosszú név        ${long_name}=    Evaluate    "A" * 100
-# Érvénytelen adatok kezelése - speciális karakterek
-# Érvénytelen adatok kezelése - csak számok a névben
-# Checkout megszakítása - Cancel gombbal    (Ellenőrzni, hogy a Cancel gomb megnyomásakor visszatér-e a kosár oldalra)
-# Érvényes adatokkal sikeres checkout folytatás
+Üres mezők ellenőrzése - cím
+    Login to SauceDemo    
+    Click Element    //*[@class="shopping_cart_container"] 
+    Click Element    //*[@class="btn btn_action btn_medium checkout_button "] 
+    Input Text    //*[@id="first-name"]    Toth      
+    Input Text    //*[@id="last-name"]    Marcel      
+    Click Element    //*[@class="submit-button btn btn_primary cart_button btn_action"] 
+    Close Browser
+
+Üres mezők ellenőrzése - minden mező üres
+    Login to SauceDemo    
+    Click Element    //*[@class="shopping_cart_container"] 
+    Click Element    //*[@class="btn btn_action btn_medium checkout_button "]     
+    Click Element    //*[@class="submit-button btn btn_primary cart_button btn_action"] 
+    Close Browser
+
+Érvénytelen adatok kezelése - túl hosszú név
+    Login to SauceDemo    
+    Click Element    //*[@class="shopping_cart_container"] 
+    Click Element    //*[@class="btn btn_action btn_medium checkout_button "]     
+        Input Text    //*[@id="first-name"]    Toth$      
+    Input Text    //*[@id="last-name"]    Marcel$
+    Click Element    //*[@class="submit-button btn btn_primary cart_button btn_action"] 
+    Close Browser
+#     ${long_name}=    Evaluate    "A" * 100    
+
+Érvénytelen adatok kezelése - speciális karakterek
+    Login to SauceDemo    
+    Click Element    //*[@class="shopping_cart_container"] 
+    Click Element    //*[@class="btn btn_action btn_medium checkout_button "]     
+    Input Text    //*[@id="first-name"]    Toth$      
+    Input Text    //*[@id="last-name"]    Marcel$
+    Input Text    //*[@id="postal-code"]    6100$ 
+    Click Element    //*[@class="submit-button btn btn_primary cart_button btn_action"] 
+    Close Browser
+
+Érvénytelen adatok kezelése - csak számok a névben
+    Login to SauceDemo    
+    Click Element    //*[@class="shopping_cart_container"] 
+    Click Element    //*[@class="btn btn_action btn_medium checkout_button "]     
+    Input Text    //*[@id="first-name"]    3213      
+    Input Text    //*[@id="last-name"]    5668
+    Input Text    //*[@id="postal-code"]    6100
+    Click Element    //*[@class="submit-button btn btn_primary cart_button btn_action"] 
+    Close Browser
+
+Checkout megszakítása - Cancel gombbal
+    Login to SauceDemo    
+    Click Element    //*[@class="shopping_cart_container"] 
+    Click Element    //*[@class="btn btn_action btn_medium checkout_button "]     
+    Input Text    //*[@id="first-name"]    Toth      
+    Input Text    //*[@id="last-name"]    Marcel
+    Input Text    //*[@id="postal-code"]    6100
+    Click Element    //*[@class="submit-button btn btn_primary cart_button btn_action"] 
+    Click Element    //*[@id="cancel"]
+    Close Browser
+
+Érvényes adatokkal sikeres checkout folytatás
+    Login to SauceDemo    
+    Click Element    //*[@class="shopping_cart_container"] 
+    Click Element    //*[@class="btn btn_action btn_medium checkout_button "]     
+    Input Text    //*[@id="first-name"]    Toth      
+    Input Text    //*[@id="last-name"]    Marcel
+    Input Text    //*[@id="postal-code"]    6100
+    Click Element    //*[@class="submit-button btn btn_primary cart_button btn_action"] 
+    Click Element    //*[@id="finish"]
+    Close Browser
+
+
+

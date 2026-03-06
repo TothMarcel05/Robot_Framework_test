@@ -1,0 +1,66 @@
+1772783072061	geckodriver	INFO	Listening on 127.0.0.1:63571
+1772783075172	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63572" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TOTHMA~1\\AppData\\Local\\Temp\\rust_mozprofilefUG1oh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1772783075378	Marionette	INFO	Marionette enabled
+1772783075444	Marionette	INFO	Listening on port 63580
+WebDriver BiDi listening on ws://127.0.0.1:63572
+Read port: 63580
+1772783075551	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+get@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:507285
+89083/r/936/t/7429/value/<@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:440891
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 2887: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 2887: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 2887: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+1772783108064	Marionette	INFO	Stopped listening on port 63580
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+console.error: "Error in worker resource://devtools/client/shared/source-map-loader/worker.js" ": "
+console.error: RemoteSecuritySettings: 
+  failed to download CRLite filter
+Object
+  - prototype Object
+    - columnNumber = 11
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":27,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":26,"lineNumber":273,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":26,"lineNumber":224,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Attachments.sys.mjs","name":"_fetchAttachment","sourceId":25,"lineNumber":560,"columnNumber":35,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Attachments.sys.mjs","name":"downloadAsBytes","sourceId":25,"lineNumber":537,"columnNumber":35,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"downloadAsBytes@resource://services-settings/Attachments.sys.mjs:537:35\n","nativeSavedFrame":{}},"formattedStack":"_fetchAttachment@resource://services-settings/Attachments.sys.mjs:560:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:537:35\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:224:12\n_fetchAttachment@resource://services-settings/Attachments.sys.mjs:560:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:537:35\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:273:15\nfetch@resource://services-settings/Utils.sys.mjs:224:12\n_fetchAttachment@resource://services-settings/Attachments.sys.mjs:560:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:537:35\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:273:15\nfetch@resource://services-settings/Utils.sys.mjs:224:12\n_fetchAttachment@resource://services-settings/Attachments.sys.mjs:560:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:537:35\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:273:15|fetch@resource://services-settings/Utils.sys.mjs:224:12|_fetchAttachment@resource://services-settings/Attachments.sys.mjs:560:35|downloadAsBytes@resource://services-settings/Attachments.sys.mjs:537:35|
+  - prototype Object
+console.error: RemoteSecuritySettings: 
+  failed to download CRLite filter
+Object
+  - prototype Object
+    - columnNumber = 11
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":27,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":26,"lineNumber":273,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":26,"lineNumber":224,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Attachments.sys.mjs","name":"_fetchAttachment","sourceId":25,"lineNumber":560,"columnNumber":35,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Attachments.sys.mjs","name":"downloadAsBytes","sourceId":25,"lineNumber":537,"columnNumber":35,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"downloadAsBytes@resource://services-settings/Attachments.sys.mjs:537:35\n","nativeSavedFrame":{}},"formattedStack":"_fetchAttachment@resource://services-settings/Attachments.sys.mjs:560:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:537:35\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:224:12\n_fetchAttachment@resource://services-settings/Attachments.sys.mjs:560:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:537:35\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:273:15\nfetch@resource://services-settings/Utils.sys.mjs:224:12\n_fetchAttachment@resource://services-settings/Attachments.sys.mjs:560:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:537:35\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:273:15\nfetch@resource://services-settings/Utils.sys.mjs:224:12\n_fetchAttachment@resource://services-settings/Attachments.sys.mjs:560:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:537:35\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:273:15|fetch@resource://services-settings/Utils.sys.mjs:224:12|_fetchAttachment@resource://services-settings/Attachments.sys.mjs:560:35|downloadAsBytes@resource://services-settings/Attachments.sys.mjs:537:35|
+  - prototype Object
+console.error: RemoteSecuritySettings: 
+  failed to download CRLite filter
+Object
+  - prototype Object
+    - columnNumber = 11
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":27,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":26,"lineNumber":273,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":26,"lineNumber":224,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Attachments.sys.mjs","name":"_fetchAttachment","sourceId":25,"lineNumber":560,"columnNumber":35,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Attachments.sys.mjs","name":"downloadAsBytes","sourceId":25,"lineNumber":537,"columnNumber":35,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"downloadAsBytes@resource://services-settings/Attachments.sys.mjs:537:35\n","nativeSavedFrame":{}},"formattedStack":"_fetchAttachment@resource://services-settings/Attachments.sys.mjs:560:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:537:35\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:224:12\n_fetchAttachment@resource://services-settings/Attachments.sys.mjs:560:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:537:35\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:273:15\nfetch@resource://services-settings/Utils.sys.mjs:224:12\n_fetchAttachment@resource://services-settings/Attachments.sys.mjs:560:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:537:35\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:273:15\nfetch@resource://services-settings/Utils.sys.mjs:224:12\n_fetchAttachment@resource://services-settings/Attachments.sys.mjs:560:35\ndownloadAsBytes@resource://services-settings/Attachments.sys.mjs:537:35\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:273:15|fetch@resource://services-settings/Utils.sys.mjs:224:12|_fetchAttachment@resource://services-settings/Attachments.sys.mjs:560:35|downloadAsBytes@resource://services-settings/Attachments.sys.mjs:537:35|
+  - prototype Object
+JavaScript error: resource://services-settings/IDBHelpers.sys.mjs, line 16: Error: IndexedDB: security-state/cert-revocations importChanges() IndexedDB:  execute() The application is shutting down

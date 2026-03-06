@@ -1,0 +1,58 @@
+1772783482478	geckodriver	INFO	Listening on 127.0.0.1:59957
+1772783485588	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59958" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TOTHMA~1\\AppData\\Local\\Temp\\rust_mozprofile4w9gBt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1772783485795	Marionette	INFO	Marionette enabled
+1772783485861	Marionette	INFO	Listening on port 59965
+WebDriver BiDi listening on ws://127.0.0.1:59958
+Read port: 59965
+1772783485954	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+1772783493358	Marionette	INFO	Stopped listening on port 59965
+console.error: "Failed to sendQuery in DevToolsProcessParent" "DevToolsProcessParent:watchTargets"
+console.error: "AbortError: Actor 'DevToolsProcess' destroyed before query 'DevToolsProcessParent:watchTargets' was resolved"
+console.error: "Failed to sendQuery in DevToolsProcessParent" "DevToolsProcessParent:watchTargets"
+console.error: "AbortError: Actor 'DevToolsProcess' destroyed before query 'DevToolsProcessParent:watchTargets' was resolved"
+console.error: "Failed to sendQuery in DevToolsProcessParent" "DevToolsProcessParent:addOrSetSessionDataEntry"
+console.error: "AbortError: Actor 'DevToolsProcess' destroyed before query 'DevToolsProcessParent:addOrSetSessionDataEntry' was resolved"
+console.error: "Exception while opening the toolbox" "Error: Connection closed, pending request to server0.conn0.watcher3, type watchTargets failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:320:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:57:19\nstartListening@resource://devtools/shared/commands/target/target-command.js:532:35\nopen@resource://devtools/client/framework/toolbox.js:961:41\n_createToolbox@resource://devtools/client/framework/devtools.js:763:19\n" (new Error("Connection closed, pending request to server0.conn0.watcher3, type watchTargets failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:320:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:57:19\nstartListening@resource://devtools/shared/commands/target/target-command.js:532:35\nopen@resource://devtools/client/framework/toolbox.js:961:41\n_createToolbox@resource://devtools/client/framework/devtools.js:763:19\n", "resource://devtools/shared/protocol/Front.js", 105))
+baseFrontClassDestroy@resource://devtools/shared/protocol/Front.js:105:23
+destroy@resource://devtools/shared/protocol/Front.js:73:10
+destroy@resource://devtools/shared/protocol/Pool.js:214:17
+baseFrontClassDestroy@resource://devtools/shared/protocol/Front.js:109:13
+destroy@resource://devtools/shared/protocol/Front.js:73:10
+destroy@resource://devtools/client/fronts/descriptors/descriptor-mixin.js:55:19
+destroy@resource://devtools/client/fronts/descriptors/tab.js:99:11
+_emit@resource://devtools/shared/event-emitter.js:216:36
+emit@resource://devtools/shared/event-emitter.js:153:10
+destroy@resource://devtools/client/fronts/descriptors/tab.js:94:12
+destroy@resource://devtools/shared/commands/index.js:100:31
+_destroyToolbox/onceDestroyed</<@resource://devtools/client/framework/toolbox.js:4514:34
+observe@chrome://browser/content/browser-init.js:56:26
+onIsEnabledChanged@resource://gre/actors/TranslationsParent.sys.mjs:1324:18
+onPreferenceChanged@resource://gre/modules/ActorManagerParent.sys.mjs:625:26
+_addActors/<@resource://gre/modules/ActorManagerParent.sys.mjs:834:19
+restorePreferences@chrome://remote/content/shared/RecommendedPreferences.sys.mjs:491:22
+restoreAllPreferences@chrome://remote/content/shared/RecommendedPreferences.sys.mjs:475:10
+observe@chrome://remote/content/shared/RecommendedPreferences.sys.mjs:467:12
+quit@chrome://remote/content/shared/Browser.sys.mjs:94:22
+GeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.sys.mjs:3463:42
+dispatch@chrome://remote/content/marionette/server.sys.mjs:318:40
+execute@chrome://remote/content/marionette/server.sys.mjs:289:16
+onPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20
+onPacket@chrome://remote/content/marionette/server.sys.mjs:263:9
+_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20
+
+console.error: "Error while calling actor 'watcher's method 'watchTargets'" "Actor 'DevToolsProcess' destroyed before query 'DevToolsProcessParent:watchTargets' was resolved"
+console.error: (new AbortError("Actor 'DevToolsProcess' destroyed before query 'DevToolsProcessParent:watchTargets' was resolved", (void 0), 392))
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+console.error: Translations: "Failed to run language detection." (new AbortError("Actor 'Translations' destroyed before query 'Translations:GetDocumentElementLang' was resolved", (void 0)))
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
