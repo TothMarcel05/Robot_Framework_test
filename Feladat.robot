@@ -80,12 +80,13 @@ Vissza navigáció - Back to products gomb
 Érvénytelen adatok kezelése - túl hosszú név
     Login to SauceDemo    
     Click Element    //*[@class="shopping_cart_container"] 
-    Click Element    //*[@class="btn btn_action btn_medium checkout_button "]     
-        Input Text    //*[@id="first-name"]    Toth$      
-    Input Text    //*[@id="last-name"]    Marcel$
+    Click Element    //*[@class="btn btn_action btn_medium checkout_button "]
+    ${long_name}=    Evaluate    "A" * 10000   
+    Input Text    //*[@id="first-name"]    ${long_name}      
+    Input Text    //*[@id="last-name"]    ${long_name}
     Click Element    //*[@class="submit-button btn btn_primary cart_button btn_action"] 
+    Sleep    5s
     Close Browser
-#     ${long_name}=    Evaluate    "A" * 100    
 
 Érvénytelen adatok kezelése - speciális karakterek
     Login to SauceDemo    
