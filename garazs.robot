@@ -66,16 +66,42 @@ Sikeres uj auto felvitele (happy path)
     Login to Parking Garage App
     Click Element     //*[@class="bi bi-car-front svelte-d9gtjo"]
     Sleep    1s
+    Click Element     //*[@id="cars-link"]
+    Sleep    1s
     Click Element     //*[@class="add-button svelte-1inzpfz"]
     Sleep    1s
     Input Text    //*[@id="brand"]    a   
     Input Text    //*[@id="model"]    a   
     Input Text    //*[@id="licensePlate"]    a    
     Click Element     //*[@class="submit-button svelte-1inzpfz"]
+    Close Browser
 
     
 # - Kotelezo mezok ellenorzese mentes elott
+Kotelezo mezok ellenorzese mentes elott
+    Login to Parking Garage App
+    Click Element     //*[@class="bi bi-car-front svelte-d9gtjo"]
+    Sleep    1s
+    Click Element     //*[@id="cars-link"]
+    Sleep    1s
+    Click Element     //*[@class="add-button svelte-1inzpfz"]
+    Sleep    1s  
+    Click Element     //*[@class="submit-button svelte-1inzpfz"]
+    Close Browser
+
 # - Hibasan megadott rendszam formatum kezelese
+Hibasan megadott rendszam formatum kezelese
+    Login to Parking Garage App
+    Click Element     //*[@class="bi bi-car-front svelte-d9gtjo"]
+    Sleep    1s
+    Click Element     //*[@id="cars-link"]
+    Sleep    1s
+    Click Element     //*[@class="add-button svelte-1inzpfz"]
+    Sleep    1s  
+    Input Text    //*[@id="licensePlate"]    $
+    Click Element     //*[@class="submit-button svelte-1inzpfz"]
+    Close Browser
+
 # - Duplikalt rendszam mentesenek kezelese
 
 # 3. Modositas es torles
