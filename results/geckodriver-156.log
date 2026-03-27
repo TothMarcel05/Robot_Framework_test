@@ -1,0 +1,36 @@
+1774594206925	geckodriver	INFO	Listening on 127.0.0.1:60778
+1774594210033	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60779" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TOTHMA~1\\AppData\\Local\\Temp\\rust_mozprofile28AI8g"
+Dynamically enable window occlusion 0
+1774594210266	Marionette	INFO	Marionette enabled
+1774594210323	Marionette	INFO	Listening on port 60786
+WebDriver BiDi listening on ws://127.0.0.1:60779
+Read port: 60786
+1774594210393	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.saucedemo.com."
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+82730/Rr/<@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:327613
+Fe@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:406383
+82730/Rr/<@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:326540
+Rr@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:326570
+$t@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:314620
+Kt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313846
+27234/t.unstable_runWithPriority@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:96789
+Hi@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:334918
+Ne@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:406124
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313638
+
+JavaScript warning: https://www.saucedemo.com/static/js/main.bcf4bc5f.js, line 2: Script terminated by timeout at:
+Jt@https://www.saucedemo.com/static/js/main.bcf4bc5f.js:2:313603
+
+1774594221307	Marionette	INFO	Stopped listening on port 60786
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+Exiting due to channel error.
