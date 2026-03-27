@@ -1,0 +1,10 @@
+1774599701109	geckodriver	INFO	Listening on 127.0.0.1:51665
+1774599704242	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51666" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TOTHMA~1\\AppData\\Local\\Temp\\rust_mozprofile7ijpGJ"
+Dynamically enable window occlusion 0
+1774599704440	Marionette	INFO	Marionette enabled
+1774599704502	Marionette	INFO	Listening on port 51674
+WebDriver BiDi listening on ws://127.0.0.1:51666
+Read port: 51674
+1774599704601	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://parking-garage-app.netlify.app."

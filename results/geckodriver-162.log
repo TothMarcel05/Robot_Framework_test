@@ -1,0 +1,12 @@
+1774599389940	geckodriver	INFO	Listening on 127.0.0.1:64678
+1774599393029	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64679" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TOTHMA~1\\AppData\\Local\\Temp\\rust_mozprofileTvSDZb"
+Dynamically enable window occlusion 0
+1774599393237	Marionette	INFO	Marionette enabled
+1774599393300	Marionette	INFO	Listening on port 64687
+WebDriver BiDi listening on ws://127.0.0.1:64679
+Read port: 64687
+1774599393390	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+1774599406501	Marionette	INFO	Stopped listening on port 64687
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.

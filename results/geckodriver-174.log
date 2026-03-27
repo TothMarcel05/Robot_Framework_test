@@ -1,0 +1,13 @@
+1774599996045	geckodriver	INFO	Listening on 127.0.0.1:64607
+1774599999197	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64608" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TOTHMA~1\\AppData\\Local\\Temp\\rust_mozprofilePKAG6t"
+Dynamically enable window occlusion 0
+1774599999407	Marionette	INFO	Marionette enabled
+1774599999465	Marionette	INFO	Listening on port 64615
+WebDriver BiDi listening on ws://127.0.0.1:64608
+Read port: 64615
+1774599999560	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+console.error: AboutNewTabResourceMapping: "train-hop add-on install failure: Error: Unexpected download cancelled while downloading xpi from https://archive.mozilla.org/pub/system-addons/newtab/newtab-150.1.0-build1/newtab.xpi"
+1774600006372	Marionette	INFO	Stopped listening on port 64615
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.

@@ -1,0 +1,15 @@
+1774600181505	geckodriver	INFO	Listening on 127.0.0.1:52133
+1774600184626	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52134" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TOTHMA~1\\AppData\\Local\\Temp\\rust_mozprofilecFATUO"
+Dynamically enable window occlusion 0
+1774600184827	Marionette	INFO	Marionette enabled
+1774600184889	Marionette	INFO	Listening on port 52142
+WebDriver BiDi listening on ws://127.0.0.1:52134
+Read port: 52142
+1774600184978	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://parking-garage-app.netlify.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://parking-garage-app.netlify.app."
+1774600190512	Marionette	INFO	Stopped listening on port 52142
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1128: Error: Connection is not open.
