@@ -1,105 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.1 (Python 3.13.5 on win32)" generated="2026-03-27T09:42:16.168420" rpa="false" schemaversion="5">
+<robot generator="Robot 7.4.1 (Python 3.13.5 on win32)" generated="2026-03-27T09:44:01.367856" rpa="false" schemaversion="5">
 <suite id="s1" name="Robot Framework test" source="C:\Users\TothMarcel\Documents\GitHub\Robot_Framework_test">
 <suite id="s1-s1" name="Garazs" source="C:\Users\TothMarcel\Documents\GitHub\Robot_Framework_test\garazs.robot">
-<test id="s1-s1-t1" name="Hibasan megadott rendszam formatum kezelese" line="93">
+<test id="s1-s1-t1" name="Duplikalt rendszam mentesenek kezelese" line="106">
 <kw name="Login to Parking Garage App">
 <kw name="Open Browser" owner="Selenium2Library">
-<msg time="2026-03-27T09:42:16.347510" level="INFO">Opening browser 'firefox' to base url 'https://parking-garage-app.netlify.app/'.</msg>
+<msg time="2026-03-27T09:44:01.538031" level="INFO">Opening browser 'firefox' to base url 'https://parking-garage-app.netlify.app/'.</msg>
 <arg>https://parking-garage-app.netlify.app/</arg>
 <arg>firefox</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-03-27T09:42:16.347280" elapsed="5.964839"/>
+<status status="PASS" start="2026-03-27T09:44:01.537813" elapsed="5.788763"/>
 </kw>
 <kw name="Click Element" owner="Selenium2Library">
-<msg time="2026-03-27T09:42:22.312680" level="INFO">Clicking element '//*[@class="button primary svelte-amvzu1"]'.</msg>
+<msg time="2026-03-27T09:44:07.327155" level="INFO">Clicking element '//*[@class="button primary svelte-amvzu1"]'.</msg>
 <arg>//*[@class="button primary svelte-amvzu1"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-27T09:42:22.312329" elapsed="0.093750"/>
+<status status="PASS" start="2026-03-27T09:44:07.326794" elapsed="0.097206"/>
 </kw>
 <kw name="Input Text" owner="Selenium2Library">
-<msg time="2026-03-27T09:42:22.406614" level="INFO">Typing text 'deakdani@gmail.com' into text field '//*[@id="email"]'.</msg>
+<msg time="2026-03-27T09:44:07.424490" level="INFO">Typing text 'deakdani@gmail.com' into text field '//*[@id="email"]'.</msg>
 <arg>//*[@id="email"]</arg>
 <arg>deakdani@gmail.com</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-27T09:42:22.406308" elapsed="0.026947"/>
+<status status="PASS" start="2026-03-27T09:44:07.424227" elapsed="0.017972"/>
 </kw>
 <kw name="Input Password" owner="Selenium2Library">
-<msg time="2026-03-27T09:42:22.433689" level="INFO">Typing password into text field '//*[@id="password"]'.</msg>
-<msg time="2026-03-27T09:42:22.440950" level="INFO">Temporally setting log level to: NONE</msg>
+<msg time="2026-03-27T09:44:07.442623" level="INFO">Typing password into text field '//*[@id="password"]'.</msg>
+<msg time="2026-03-27T09:44:07.449131" level="INFO">Temporally setting log level to: NONE</msg>
 <arg>//*[@id="password"]</arg>
 <arg>a</arg>
 <doc>Types the given password into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-27T09:42:22.433427" elapsed="0.021749"/>
+<status status="PASS" start="2026-03-27T09:44:07.442369" elapsed="0.010211"/>
 </kw>
 <kw name="Click Button" owner="Selenium2Library">
-<msg time="2026-03-27T09:42:22.455811" level="INFO">Clicking button '//*[@id="login-button"]'.</msg>
+<msg time="2026-03-27T09:44:07.452967" level="INFO">Clicking button '//*[@id="login-button"]'.</msg>
 <arg>//*[@id="login-button"]</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-27T09:42:22.455413" elapsed="0.067627"/>
+<status status="PASS" start="2026-03-27T09:44:07.452740" elapsed="0.086846"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2026-03-27T09:42:23.524189" level="INFO">Slept 1 second.</msg>
+<msg time="2026-03-27T09:44:08.540901" level="INFO">Slept 1 second.</msg>
 <arg>1s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-03-27T09:42:22.523263" elapsed="1.002168"/>
+<status status="PASS" start="2026-03-27T09:44:07.539795" elapsed="1.002211"/>
 </kw>
-<status status="PASS" start="2026-03-27T09:42:16.346707" elapsed="7.179817"/>
+<status status="PASS" start="2026-03-27T09:44:01.537275" elapsed="7.005569"/>
 </kw>
 <kw name="Click Element" owner="Selenium2Library">
-<msg time="2026-03-27T09:42:23.530485" level="INFO">Clicking element '//*[@class="bi bi-car-front svelte-d9gtjo"]'.</msg>
+<msg time="2026-03-27T09:44:08.545975" level="INFO">Clicking element '//*[@class="bi bi-car-front svelte-d9gtjo"]'.</msg>
 <arg>//*[@class="bi bi-car-front svelte-d9gtjo"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-27T09:42:23.528246" elapsed="0.077327"/>
+<status status="PASS" start="2026-03-27T09:44:08.544554" elapsed="0.075010"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2026-03-27T09:42:24.608949" level="INFO">Slept 1 second.</msg>
+<msg time="2026-03-27T09:44:09.620534" level="INFO">Slept 1 second.</msg>
 <arg>1s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-03-27T09:42:23.606808" elapsed="1.002954"/>
+<status status="PASS" start="2026-03-27T09:44:08.619820" elapsed="1.001781"/>
 </kw>
 <kw name="Click Element" owner="Selenium2Library">
-<msg time="2026-03-27T09:42:24.612110" level="INFO">Clicking element '//*[@id="cars-link"]'.</msg>
+<msg time="2026-03-27T09:44:09.625439" level="INFO">Clicking element '//*[@id="cars-link"]'.</msg>
 <arg>//*[@id="cars-link"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-27T09:42:24.611132" elapsed="0.084347"/>
+<status status="PASS" start="2026-03-27T09:44:09.623839" elapsed="0.072710"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2026-03-27T09:42:25.697868" level="INFO">Slept 1 second.</msg>
+<msg time="2026-03-27T09:44:10.698401" level="INFO">Slept 1 second.</msg>
 <arg>1s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-03-27T09:42:24.696319" elapsed="1.002040"/>
+<status status="PASS" start="2026-03-27T09:44:09.697173" elapsed="1.002768"/>
 </kw>
 <kw name="Click Element" owner="Selenium2Library">
-<msg time="2026-03-27T09:42:25.700095" level="INFO">Clicking element '//*[@class="add-button svelte-1inzpfz"]'.</msg>
+<msg time="2026-03-27T09:44:10.703572" level="INFO">Clicking element '//*[@class="add-button svelte-1inzpfz"]'.</msg>
 <arg>//*[@class="add-button svelte-1inzpfz"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-27T09:42:25.699306" elapsed="0.077701"/>
+<status status="PASS" start="2026-03-27T09:44:10.702130" elapsed="0.069660"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2026-03-27T09:42:26.778810" level="INFO">Slept 1 second.</msg>
+<msg time="2026-03-27T09:44:11.775528" level="INFO">Slept 1 second.</msg>
 <arg>1s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-03-27T09:42:25.777795" elapsed="1.001622"/>
+<status status="PASS" start="2026-03-27T09:44:10.773582" elapsed="1.002666"/>
 </kw>
 <kw name="Input Text" owner="Selenium2Library">
-<msg time="2026-03-27T09:42:26.781332" level="INFO">Typing text '$' into text field '//*[@id="licensePlate"]'.</msg>
+<msg time="2026-03-27T09:44:11.777937" level="INFO">Typing text 'ABC-123ABC-123' into text field '//*[@id="licensePlate"]'.</msg>
 <arg>//*[@id="licensePlate"]</arg>
-<arg>$</arg>
+<arg>ABC-123ABC-123</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-27T09:42:26.780557" elapsed="0.018869"/>
+<status status="PASS" start="2026-03-27T09:44:11.777160" elapsed="0.019041"/>
 </kw>
 <kw name="Click Element" owner="Selenium2Library">
-<msg time="2026-03-27T09:42:26.800013" level="INFO">Clicking element '//*[@class="submit-button svelte-1inzpfz"]'.</msg>
+<msg time="2026-03-27T09:44:11.797267" level="INFO">Clicking element '//*[@class="submit-button svelte-1inzpfz"]'.</msg>
 <arg>//*[@class="submit-button svelte-1inzpfz"]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-27T09:42:26.799742" elapsed="0.072539"/>
+<status status="PASS" start="2026-03-27T09:44:11.796902" elapsed="0.069046"/>
 </kw>
-<status status="PASS" start="2026-03-27T09:42:16.344713" elapsed="10.528130"/>
+<status status="PASS" start="2026-03-27T09:44:01.535492" elapsed="10.330829"/>
 </test>
-<status status="PASS" start="2026-03-27T09:42:16.209746" elapsed="10.667171"/>
+<status status="PASS" start="2026-03-27T09:44:01.399506" elapsed="10.469726"/>
 </suite>
-<status status="PASS" start="2026-03-27T09:42:16.173266" elapsed="10.706419"/>
+<status status="PASS" start="2026-03-27T09:44:01.371619" elapsed="10.499680"/>
 </suite>
 <statistics>
 <total>

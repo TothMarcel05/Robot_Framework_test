@@ -103,9 +103,40 @@ Hibasan megadott rendszam formatum kezelese
     Close Browser
 
 # - Duplikalt rendszam mentesenek kezelese
+Duplikalt rendszam mentesenek kezelese
+    Login to Parking Garage App
+    Click Element     //*[@class="bi bi-car-front svelte-d9gtjo"]
+    Sleep    1s
+    Click Element     //*[@id="cars-link"]
+    Sleep    1s
+    Click Element     //*[@class="add-button svelte-1inzpfz"]
+    Sleep    1s  
+    Input Text    //*[@id="licensePlate"]    ABC-123ABC-123
+    Click Element     //*[@class="submit-button svelte-1inzpfz"]
+
 
 # 3. Modositas es torles
 # - Auto adatainak sikeres modositasa
+Auto adatainak sikeres modositasa
+    Login to Parking Garage App
+    Click Element     //*[@class="bi bi-car-front svelte-d9gtjo"]
+    Sleep    1s
+    Click Element     //*[@id="cars-link"]
+    Sleep    1s
+    Click Element     //*[@class="add-button svelte-1inzpfz"]
+    Sleep    1s
+    Input Text    //*[@id="brand"]    a   
+    Input Text    //*[@id="model"]    a   
+    Input Text    //*[@id="licensePlate"]    a    
+    Click Element     //*[@class="submit-button svelte-1inzpfz"]
 # - Torles megerosito ablakkal
+Torles megerosito ablakkal
+    Login to Parking Garage App
+
 # - Torles megszakitasa (Megse folyamattal)
+Torles megszakitasa (Megse folyamattal)
+    Login to Parking Garage App
+
 # - Megerosito ablak gombjainak helyes mukodese
+Megerosito ablak gombjainak helyes mukodese
+    Login to Parking Garage App
